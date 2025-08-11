@@ -33,7 +33,11 @@ fetchData();
 //watch 지속적으로 관찰하기
 const { pause, stop, resume } = watch(todoId, fetchData, {
   // handle() : watch 멈추는 함수 = stop
+  
 });
+
+console.log(pause, stop, resume);
+
 
 </script>
 
